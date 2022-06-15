@@ -12,8 +12,8 @@ namespace ApiProdutos.Models
         public int Id { get; set; }
         [Required, MaxLength(120)]
         public string Nome { get; set; }
-        public DateTime DataInicio { get; set; }
-        public DateTime DataFim { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
+
 
     }
 }

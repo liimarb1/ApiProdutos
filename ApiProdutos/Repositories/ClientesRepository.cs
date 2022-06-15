@@ -23,11 +23,7 @@ namespace ApiProdutos.Repositories
                 var cliente_db = new Clientes()
                 {
                     Nome = cliente.Nome,
-                    DataInicio = cliente.DataInicio,
-                    DataFim = cliente.DataFim
-
-
-
+                   
                 };
 
                 db.clientes.Add(cliente_db);

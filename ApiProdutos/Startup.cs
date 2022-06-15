@@ -31,7 +31,7 @@ namespace ApiProdutos
         {
 
             services.AddControllers();
-
+           
             services.AddDbContext<_DbContext>(x =>
             {
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
