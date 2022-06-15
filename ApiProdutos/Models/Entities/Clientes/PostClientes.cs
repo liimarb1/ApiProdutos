@@ -8,6 +8,6 @@ namespace ApiProdutos.Models.Entities.Clientes
        
         [Required]
         public string Nome { get; set; }
-               
+        
     }
 }
